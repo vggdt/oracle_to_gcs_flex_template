@@ -1,0 +1,31 @@
+{
+  "name": "oracle_to_gcs",
+  "description": "Template customizado que extrai dados do Oracle e salva no GCS",
+  "parameters": [
+    {
+      "name": "connection_url",
+      "label": "Connection URL",
+      "helpText": "JDBC connection string para Oracle."
+    },
+    {
+      "name": "username",
+      "label": "Username",
+      "helpText": "Usuario do banco Oracle."
+    },
+    {
+      "name": "password",
+      "label": "Senha",
+      "helpText": "Senha do banco Oracle."
+    },
+    {
+      "name": "query",
+      "label": "Query",
+      "helpText": "Consulta SQL a ser executada no Oracle."
+    },
+    {
+      "name": "output_path",
+      "label": "Output GCS path",
+      "helpText": "Caminho de saida no GCS."
+    }
+  ]
+}
